@@ -45,3 +45,7 @@ services:
   $VAR_2=${VAR_2}
 </pre>
 ```
+
+## Result (screenshot)
+
+![image](https://user-images.githubusercontent.com/5339042/30239334-ac178006-955a-11e7-9f40-2b4784d22b87.png)
