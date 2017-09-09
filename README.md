@@ -10,7 +10,7 @@ Configuration values are specified in `dot-env` file and passed to container by 
 
 # Usage
 
-```
+```sh
 $ docker-compose up -d
 $ open http://localhost
 $ docker-compose down
@@ -18,13 +18,13 @@ $ docker-compose down
 
 ## Example setup
 
-```
+```sh
 # dot-env
 VAR_1=val-1
 VAR_2=val-2
 ```
 
-```
+```yaml
 # docker-compose.yml
 version: "2"
 services:
@@ -38,7 +38,7 @@ services:
 
 ```
 
-```
+```html
 # index.html
 <pre>
   $VAR_1=${VAR_1}
