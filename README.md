@@ -2,13 +2,13 @@
 
 > Solution for accepting dynamic variables in a statically compiled site.
 
-# Overview
+## Overview
 
 Using `envsubst` to replace template variables in static files with corresponding environment variable values.
 
 Configuration values are specified in `dot-env` file and passed to container by environment variables mapping in `docker-compose.yml`.
 
-# Usage
+## Usage
 
 ```sh
 $ docker-compose up -d
