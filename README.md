@@ -1,4 +1,4 @@
-# docker-static-site vars
+# docker-static-site-vars
 
 > Solution for accepting dynamic variables in a statically compiled site.
 
