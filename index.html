@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solution for accepting dynamic variables in a statically compiled site</title>
+</head>
+<body>
+  <h1>Solution for accepting dynamic variables in a statically compiled site</h1>
+  <pre>
+// simple example
+VAR_1=${VAR_1}
+VAR_2=${VAR_2}
+  </pre>
+  <script>
+    document.write('<pre>// handling via js\n' + JSON.stringify({
+      VAR_1: '${VAR_1}',
+      VAR_2: '${VAR_2}'
+    }, null, 4) + '</pre>')
+  </script>
+</body>
+</html>

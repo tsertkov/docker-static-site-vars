@@ -1,0 +1,9 @@
+version: "2"
+services:
+  nginx:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      VAR_1: "${VAR_1}"
+      VAR_2: "${VAR_2}"
